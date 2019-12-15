@@ -16,3 +16,5 @@ Model_A is a multiplicative model and uses days_prior and week_day as inputs to 
 
 For all these models, we calculated the Mean Absolute Scaled Error (MASE). Our program selects the model having the lowest MASE value. Once a model is selected, our program returns the summary information on all the model, and a forecast data frame having departure_date, booking_date, and robust_forecast as its variables. The program also writes the output forecast data frame to a .csv file viz. “airline_robust_forecastData.csv” file.
 
+
+
